@@ -1,0 +1,1 @@
+EXEC master..xp_test_MAPI_profile 'SQL'

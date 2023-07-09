@@ -1,0 +1,2 @@
+SELECT CUSTOMERS.CustomerNumber, ORDERS.Amount
+FROM CUSTOMERS JOIN ORDERS ON (CUSTOMERS.CustomerNumber=ORDERS.CustomerNumber)

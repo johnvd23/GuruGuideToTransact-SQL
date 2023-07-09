@@ -1,0 +1,3 @@
+SELECT * 
+FROM sales
+WHERE qty BETWEEN 20 AND 30

@@ -1,0 +1,3 @@
+SELECT UPPER(LastName), FirstName
+FROM CUSTOMERS
+WHERE State='TX'

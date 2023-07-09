@@ -1,0 +1,1 @@
+EXEC master..xp_dsninfo 'RMG VCDB'

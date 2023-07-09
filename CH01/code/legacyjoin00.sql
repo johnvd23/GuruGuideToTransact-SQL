@@ -1,0 +1,3 @@
+SELECT CUSTOMERS.CustomerNumber, ORDERS.Amount
+FROM CUSTOMERS, ORDERS
+WHERE CUSTOMERS.CustomerNumber=ORDERS.CustomerNumber

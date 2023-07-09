@@ -1,0 +1,1 @@
+EXEC master..xp_enum_oledb_providers

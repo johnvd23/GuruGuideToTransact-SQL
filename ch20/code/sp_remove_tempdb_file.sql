@@ -1,0 +1,1 @@
+master..sp_remove_tempdb_file 'tempdev02'

@@ -1,0 +1,1 @@
+SELECT TYPEPROPERTY('id','AllowsNull')

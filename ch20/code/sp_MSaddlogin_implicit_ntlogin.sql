@@ -1,0 +1,1 @@
+sp_MSaddlogin_implicit_ntlogin 'GoofyTingler'

@@ -1,0 +1,2 @@
+INSERT INTO ITEMS (ItemNumber, Price)
+VALUES(1001,123.45)

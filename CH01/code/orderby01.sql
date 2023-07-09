@@ -1,0 +1,3 @@
+SELECT FirstName, LastName
+FROM CUSTOMERS
+ORDER BY LastName DESC

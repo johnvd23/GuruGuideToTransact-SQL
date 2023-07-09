@@ -1,0 +1,3 @@
+USE Northwind
+SELECT OrderDate FROM Orders 
+WHERE OrderDate BETWEEN '19980501' AND '19980531'

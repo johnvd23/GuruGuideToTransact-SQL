@@ -1,0 +1,1 @@
+EXEC master..xp_getfiledetails 'd:\mssql7\install\readme.txt'

@@ -1,0 +1,2 @@
+UPDATE CUSTOMERS
+SET State='CA'

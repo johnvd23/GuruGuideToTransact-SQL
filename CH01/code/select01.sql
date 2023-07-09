@@ -1,0 +1,1 @@
+SELECT CustomerNumber, LastName, State FROM CUSTOMERS

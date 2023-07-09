@@ -1,0 +1,12 @@
+SET NOCOUNT ON
+CREATE TABLE #testguid 
+(k1 uniqueidentifier ROWGUIDCOL DEFAULT NEWID(), k2 int identity)
+
+INSERT #testguid DEFAULT VALUES
+INSERT #testguid DEFAULT VALUES
+INSERT #testguid DEFAULT VALUES
+INSERT #testguid DEFAULT VALUES
+
+SELECT ROWGUIDCOL FROM #testguid
+GO
+DROP TABLE #testguid

@@ -1,0 +1,2 @@
+SELECT UPPER(LastName), FirstName
+FROM CUSTOMERS

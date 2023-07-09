@@ -1,0 +1,1 @@
+EXEC master..xp_get_MAPI_default_profile

@@ -1,0 +1,1 @@
+EXEC master..xp_fileexist 'd:\mssql7\install\readme.txt'

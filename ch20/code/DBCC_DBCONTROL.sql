@@ -1,0 +1,1 @@
+DBCC DBCONTROL('pubs',multi)

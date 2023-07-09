@@ -1,0 +1,1 @@
+DBCC UPGRADEDB('oldpubs')

@@ -1,0 +1,2 @@
+DELETE FROM CUSTOMERS
+WHERE LastName<>'Doe'

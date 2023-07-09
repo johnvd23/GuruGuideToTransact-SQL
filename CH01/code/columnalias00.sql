@@ -1,0 +1,1 @@
+SELECT TodaysDate=GETDATE()

@@ -1,0 +1,1 @@
+SELECT DATALENGTH(N'The Firm')

@@ -1,0 +1,2 @@
+DBCC DETACHDB('northwind2')
+

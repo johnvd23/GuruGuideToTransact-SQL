@@ -1,0 +1,2 @@
+SELECT OrderNumber, OrderDate, Amount FROM ORDERS
+WHERE OrderDate BETWEEN '10/01/90' AND '05/31/95 23:59:59.999'

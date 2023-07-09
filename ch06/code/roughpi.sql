@@ -1,0 +1,1 @@
+SELECT pi() AS SSPi, CAST(21.99115 / 7 AS decimal(7,6)) AS RoughPi

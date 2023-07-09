@@ -1,0 +1,2 @@
+SELECT ENCRYPT('sycophant')
+

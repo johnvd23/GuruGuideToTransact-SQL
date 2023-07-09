@@ -1,0 +1,1 @@
+EXEC msdb..sp_set_local_time

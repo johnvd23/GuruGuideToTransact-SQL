@@ -1,0 +1,18 @@
+SET NOCOUNT ON
+CREATE TABLE #dist (k1 int, c1 int)
+INSERT #dist VALUES (1,2)
+INSERT #dist VALUES (2,3)
+INSERT #dist VALUES (2,1)
+INSERT #dist VALUES (2,5)
+INSERT #dist VALUES (5,4)
+INSERT #dist VALUES (7,8)
+INSERT #dist VALUES (7,9)
+
+SELECT d.k1, d.c1
+FROM #dist d CROSS JOIN #dist i
+WHERE d.k1=i.k1
+GROUP BY d.k1, d.c1
+HAVING COUNT(CASE WHEN i.c1<=d.c1 THEN 1 ELSE NULL END)=(COUNT(*)+1)/2
+ORDER BY d.k1
+
+DROP TABLE #dist

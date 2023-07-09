@@ -1,0 +1,17 @@
+CREATE TABLE #dist (c1 int)
+INSERT INTO #dist VALUES (2)
+INSERT INTO #dist VALUES (3)
+INSERT INTO #dist VALUES (1)
+INSERT INTO #dist VALUES (4)
+INSERT INTO #dist VALUES (8)
+INSERT INTO #dist VALUES (9)
+
+SELECT Median=CASE COUNT(*)%2 
+   WHEN 0 THEN -- Even number of VALUES
+   	(d.c1+MIN(CASE WHEN i.c1>d.c1 THEN i.c1 ELSE NULL END))/2.0
+   ELSE d.c1 END  -- Odd number
+FROM #dist d CROSS JOIN #dist i
+GROUP BY d.c1
+HAVING COUNT(CASE WHEN i.c1 <= d.c1 THEN 1 ELSE NULL END)=(COUNT(*)+1)/2
+
+DROP TABLE #dist
